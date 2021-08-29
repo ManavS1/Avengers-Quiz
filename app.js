@@ -14,7 +14,7 @@ form.addEventListener("submit", (e) => {
     form.q5.value,
   ];
 
-  for (let i = 1; i <= correctAns.length; i++) {
+  for (let i = 0; i <= correctAns.length - 1; i++) {
     if (userAns[i] === correctAns[i]) {
       score = score + 10;
     }
